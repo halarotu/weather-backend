@@ -1,0 +1,8 @@
+POST http://localhost:8080/observation HTTP/1.1
+content-type: application/json
+
+{
+    "temperature": "10.2",
+    "dateTime": "Wed, 21 Oct 2015 18:27:50 GMT",
+    "location": "1"
+}
